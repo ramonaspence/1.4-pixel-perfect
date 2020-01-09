@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: none;
+}
+
+li {
+  list-style: none;
+}
+
+.content-container {
+  width: 1224px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.article-list {
+  
+}

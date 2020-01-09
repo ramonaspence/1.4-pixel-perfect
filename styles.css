@@ -4,7 +4,7 @@
 }
 
 ul {
-  padding: none;
+  padding: 0;
 }
 
 li {
@@ -89,4 +89,30 @@ h1 {
   margin-right: 150px;
   margin-top: 75px;
   margin-left: 100px;
+}
+
+.sidebar-items {
+  background-color: white;
+  display: inline-block;
+
+}
+
+
+.bio-card {
+  text-align: center;
+  position: relative;
+
+}
+
+.bio-img {
+  width: 100%;
+}
+
+.portrait {
+  width: 50%;
+  border: white solid 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  right: 115px;
 }

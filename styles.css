@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 ul {
@@ -15,11 +16,8 @@ a {
 
 }
 
-.content-container {
-  width: 1224px;
-  height: auto;
-
-
+body {
+  background-color: #F4F4F4;
 }
 
 .nav-header {
@@ -27,6 +25,7 @@ a {
   width: 100%;
   height: 100px;
   position: relative;
+
 
 }
 
@@ -41,15 +40,19 @@ a {
 
 .nav-header > i {
   color: #AAAAAA;
-  width: 0px;
-  height: 0;
-  border: 2px solid #AAA;
   padding: 10px 10px 10px 10px;
   position: relative;
   left: 850px;
   top: 20px;
+  z-index: 20;
 }
 
 .article-list {
+  display: inline-block;
+  width: 40%;
+
+}
+
+.article-preview {
   
 }

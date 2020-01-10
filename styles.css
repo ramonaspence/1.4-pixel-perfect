@@ -32,7 +32,7 @@ h1 {
 
 }
 
-.nav-header > a {
+.nav-header a {
   color: #545454;
   padding: 10px 10px 10px 10px;
   position: relative;
@@ -41,13 +41,12 @@ h1 {
 
 }
 
-.nav-header > i {
+.nav-header i {
   color: #AAAAAA;
   padding: 10px 10px 10px 10px;
   position: relative;
   left: 850px;
   top: 20px;
-  z-index: 20;
 }
 
 .article-list {
@@ -65,7 +64,7 @@ h1 {
 
 }
 
-.article-preview > img {
+.article-preview img {
   width: 100%;
   height: 40%;
 }
@@ -73,7 +72,6 @@ h1 {
 .preview-labels {
   color: #DE5F42;
   font-weight: 400;
-
 
 }
 
@@ -93,10 +91,8 @@ h1 {
 
 .sidebar-items {
   background-color: white;
-  display: inline-block;
 
 }
-
 
 .bio-card {
   text-align: center;
@@ -113,6 +109,22 @@ h1 {
   border: white solid 4px;
   border-radius: 50%;
   position: absolute;
-  top: 100px;
-  right: 115px;
+  right: 115px; top: 80px;
+}
+
+.bio-text {
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+
+
+.bio-card span {
+  width: 25px;
+  font-size: .865em;
+  color: #AAA;
+  padding: 5px 5px;
+  position: relative;
+  border: solid 1px #E2E2E2;
+  border-radius: 50%;
 }

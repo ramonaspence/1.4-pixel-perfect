@@ -26,6 +26,17 @@ h2 {
   text-align: center;
 }
 
+.nav-header a:hover {
+  color: #DC4F37;
+
+}
+
+.nav-header i:hover {
+  color: #DC4F37;
+}
+
+
+
 .nav-header {
   font-size: 1.7rem;
   letter-spacing: .125rem;
@@ -308,4 +319,14 @@ time {
 
 .feed {
     padding-left: 25px;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0px;
+}
+
+.footer img {
+  width: 180px;
+  height: 190px;
 }

@@ -146,8 +146,8 @@ h1 {
   display: inline-block;
   width: 36rem;
   margin-left: 15px;
-  margin-top: 29px;
   vertical-align: top;
+
 
 
 }
@@ -155,12 +155,13 @@ h1 {
 .sidebar-items {
   background-color: white;
 
+
 }
 
 .bio-card {
   text-align: center;
   position: relative;
-
+  margin-top: 30px;
 
 }
 
@@ -191,11 +192,14 @@ h1 {
 
 .bio-card span {
   width: 25px;
-  font-size: .865em;
+  font-size: 1.3rem;
   color: #AAA;
   padding: 5px 5px;
-  margin: 2px 2px;
+  margin-left: 6px;
+  margin-right: 6px;
   position: relative;
+  bottom: 83px;
+  right: 6px;
   border: solid 1px #E2E2E2;
   border-radius: 50%;
 }
@@ -219,7 +223,7 @@ time {
 }
 
 .popular-posts {
-  
+
 }
 
 .popular-posts img {

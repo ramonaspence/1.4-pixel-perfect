@@ -325,9 +325,21 @@ time {
 
 }
 
-.feed img:hover {
-  background-color: rgba(220, 79, 55, .3);
+.img-links figure {
+  background-color: rgb(220,79,55);
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  margin-left: 2px;
+  display: inline-block;
+
 }
+
+.img-links figure:hover img {
+  opacity: 0.4;
+}
+
 
 .feed img  {
   width: 150px;
@@ -335,9 +347,6 @@ time {
   margin-bottom: 10px;
   margin-right: 10px;
 
-}
-
-.feed h2 {
 
 }
 

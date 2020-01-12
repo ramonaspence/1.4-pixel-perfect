@@ -229,10 +229,6 @@ time {
   margin-bottom: 10px;
 }
 
-hr {
-
-}
-
 .popular-posts {
   padding: 20px 30px;
 }
@@ -244,12 +240,26 @@ hr {
 
 }
 
+.popular-posts hr {
+  display: block;
+}
+
 .latest-posts {
   /* margin-right: 35px;
   padding-right: 35px; */
   padding: 20px 30px;
 }
 
+.latest-posts h3 {
+  margin-top: 0px;
+
+}
+
+.latest-posts hr {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .image-div {
    width: 100px;
@@ -259,6 +269,7 @@ hr {
 
 .text-div {
   display: inline-block;
+  vertical-align: top;
 }
 
 .latest-posts img {

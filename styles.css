@@ -359,6 +359,18 @@ time {
   font-size: 0px;
 }
 
+.footer figure {
+  background-color: rgb(220,79,55);
+  width: 180px;
+  height: 190px;
+  margin: 0;
+  display: inline-block;
+}
+
+.footer figure:hover img {
+  opacity: 0.4;
+}
+
 .footer img {
   width: 180px;
   height: 190px;

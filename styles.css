@@ -67,7 +67,7 @@ h2 {
 
 .nav-icons {
 
-  color: #AAAAAA;
+  color: #BDBDBD;
   padding: 15px 15px;
   position: relative;
   left: 1040px;
@@ -78,6 +78,7 @@ h2 {
 
 .nav-header i {
   font-size: 1.2rem;
+  color: #BDBDBD;
 }
 
 .article-list {
@@ -139,6 +140,20 @@ h1 {
   margin: 10px auto;
   font-size: 1.75rem;
 
+}
+
+.preview-footers {
+  padding: 35px;
+  position: relative;
+}
+
+.preview-footers i {
+  color: #BDBDBD;
+  margin: 10px 10px;
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 35px;
+  left: 295px;
 }
 
 .sidebar {
@@ -277,4 +292,20 @@ time {
   height: 75px;
   padding-right: 20px;
 
+}
+
+.feed img  {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+}
+
+.feed h2 {
+
+}
+
+.feed {
+    padding-left: 25px;
 }

@@ -14,7 +14,6 @@ li {
 
 a {
   text-decoration: none;
-
 }
 
 body {
@@ -28,13 +27,11 @@ h2 {
 
 .nav-header a:hover {
   color: #DC4F37;
-
 }
 
 .nav-header i:hover {
   color: #DC4F37;
 }
-
 
 .nav-header {
   font-size: 1.7rem;
@@ -46,7 +43,6 @@ h2 {
   height: 60px;
   border-bottom: 1px solid #E7E7E7;
   position: relative;
-
 }
 
 .nav-links a {
@@ -66,7 +62,6 @@ h2 {
   top: 19px;
 
 } */
-
 .nav-icons a {
   color: #545454;
   padding: 5px 5px;
@@ -76,14 +71,11 @@ h2 {
 }
 
 .nav-icons {
-
   color: #BDBDBD;
   padding: 15px 15px;
   position: relative;
   left: 1040px;
   bottom: 29px;
-
-
 }
 
 .nav-header i {
@@ -97,7 +89,6 @@ h2 {
   margin-left: 15rem;
   margin-top: 30px;
   margin-right: 15px;
-
 }
 
 .article-preview {
@@ -105,7 +96,6 @@ h2 {
   text-align: center;
   background-color: white;
   margin-bottom: 5rem;
-
 }
 
 .article-preview img {
@@ -119,8 +109,6 @@ h2 {
   color: #DE5F42;
   letter-spacing: 1.5px;
   font-weight: normal;
-
-
 }
 
 h1 {
@@ -128,7 +116,6 @@ h1 {
   font-size: 3.6rem;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
-
 }
 
 .preview-descript {
@@ -139,28 +126,24 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-variant: normal;
   font-weight: lighter;
-
 }
 
 .article-preview button:hover {
   color: white;
   background-color: #DC4F37;
-
 }
 
 .continue-buttons {
   color: #DE5F42;
   background-color: white;
   border: 1px solid #DE5F42;
-  padding: 10px 25px 10px 25px  ;
+  padding: 10px 25px 10px 25px;
   margin: 10px auto;
   font-size: 1.75rem;
-
 }
 
 .preview-footers i:hover {
   color: #DC4F37;
-
 }
 
 .preview-footers {
@@ -183,28 +166,21 @@ h1 {
   width: 36rem;
   margin-left: 15px;
   vertical-align: top;
-
-
-
 }
 
 .sidebar-items li {
   background-color: white;
   margin-bottom: 40px;
-
-
 }
 
 .icon-container span:hover {
-  background-color: #DC4F37
-  color: white;
+  background-color: #DC4F37 color: white;
 }
 
 .bio-card {
   text-align: center;
   position: relative;
   margin-top: 30px;
-
 }
 
 .bio-img {
@@ -216,7 +192,8 @@ h1 {
   border: white solid 6px;
   border-radius: 50%;
   position: absolute;
-  right: 90px; top: 100px;
+  right: 90px;
+  top: 100px;
 }
 
 .bio-text h2 {
@@ -225,6 +202,7 @@ h1 {
   margin-top: 0;
   font-size: 2.8rem;
 }
+
 .bio-text {
   font-family: 'oswald', sans-serif;
   padding: 100px 35px;
@@ -256,7 +234,6 @@ h2 {
   font-family: 'oswald', sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
 
 h3 {
@@ -283,7 +260,6 @@ time {
   width: 300px;
   height: 200px;
   margin-top: 10px;
-
 }
 
 .popular-posts hr {
@@ -298,7 +274,6 @@ time {
 
 .latest-posts h3 {
   margin-top: 0px;
-
 }
 
 .latest-posts hr {
@@ -308,9 +283,9 @@ time {
 }
 
 .image-div {
-   width: 100px;
-   height: 75px;
-   display: inline-block;
+  width: 100px;
+  height: 75px;
+  display: inline-block;
 }
 
 .text-div {
@@ -322,18 +297,75 @@ time {
   width: 100px;
   height: 75px;
   padding-right: 20px;
+}
+
+.feed .fa-heart {
+  opacity: 0;
+  font-size: 1.7rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 15%;
 
 }
 
+.img-links figure:hover .fa-heart{
+  color: white;
+  opacity: 1;
+
+}
+
+.feed .likes {
+  font-size: 1.7rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 48%;
+  left: 30%;
+}
+
+.img-links figure:hover .likes {
+  opacity: 1;
+}
+
+.feed .fa-comment {
+  color: white;
+  font-size: 1.7rem;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+
+
+}
+
+.img-links figure:hover .fa-comment {
+  opacity: 1;
+
+}
+
+.feed .comments {
+  font-size: 1.7rem;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 48%;
+  right: 15%;
+}
+
+.img-links figure:hover .comments {
+  opacity: 1;
+}
+
 .img-links figure {
-  background-color: rgb(220,79,55);
+  background-color: rgb(220, 79, 55);
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
   margin-right: 6px;
   margin-left: 2px;
   display: inline-block;
-
+  position: relative;
 }
 
 .img-links figure:hover img {
@@ -341,31 +373,93 @@ time {
 }
 
 
-.feed img  {
+.feed a {
+  width: 150px;
+  height: 150px;
+
+}
+
+.feed img {
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
   margin-right: 10px;
-
-
 }
 
 .feed {
-    padding-left: 25px;
+  padding-left: 25px;
 }
+
+
 
 .footer {
   width: 100%;
   font-size: 0px;
+
+}
+
+.footer .fa-heart {
+  font-size: 1.7rem;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+}
+
+.footer figure:hover .fa-heart {
+  opacity: 1;
+}
+
+.footer .likes {
+  font-size: 1.7rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+}
+
+.footer figure:hover .likes {
+  opacity: 1;
+}
+
+.footer .fa-comment {
+  font-size: 1.7rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 30%;
+}
+
+.footer figure:hover .fa-comment {
+  opacity: 1;
+}
+
+.footer .comments {
+  font-size: 1.7rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 15%;
+}
+
+.footer figure:hover .comments {
+  opacity: 1;
 }
 
 .footer figure {
-  background-color: rgb(220,79,55);
+  background-color: rgb(220, 79, 55);
   width: 180px;
   height: 190px;
   margin: 0;
   display: inline-block;
+  position: relative;
+
 }
+
 
 .footer figure:hover img {
   opacity: 0.4;

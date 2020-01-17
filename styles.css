@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-variant: all-small-caps;
 }
 
 ul {
@@ -19,11 +18,17 @@ a {
 body {
   background-color: #F4F4F4;
   font-family: 'Lato', sans-serif;
+  font-variant: small-caps;
 }
 
 h2 {
   text-align: center;
 }
+
+hr {
+  color: #BDBDBD;
+}
+
 
 .nav-header a:hover {
   color: #DC4F37;
@@ -37,6 +42,8 @@ h2 {
   font-size: 1.7rem;
   letter-spacing: .125rem;
   font-weight: lighter;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   background-color: #F8F8F8;
   margin-bottom: 25px;
   width: 100%;
@@ -54,14 +61,6 @@ h2 {
   top: 19px;
 }
 
-/* .nav-header a {
-  color: #545454;
-  padding: 5px 5px;
-  position: relative;
-  left: 140px;
-  top: 19px;
-
-} */
 .nav-icons a {
   color: #545454;
   padding: 5px 5px;
@@ -109,6 +108,7 @@ h2 {
   color: #DE5F42;
   letter-spacing: 1.5px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -116,6 +116,7 @@ h1 {
   font-size: 3.6rem;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 .preview-descript {
@@ -123,7 +124,6 @@ h1 {
   padding: 10px 40px;
   font-size: 1.5rem;
   line-height: 2.5rem;
-  font-family: 'Lato', sans-serif;
   font-variant: normal;
   font-weight: lighter;
 }
@@ -197,17 +197,18 @@ h1 {
 }
 
 .bio-text h2 {
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   padding: 0px 15px;
   margin-top: 0;
   font-size: 2.8rem;
 }
 
 .bio-text {
-  font-family: 'oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   padding: 100px 35px;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 3rem;
+  font-variant: normal;
 }
 
 .bio-card span:hover {
@@ -282,13 +283,13 @@ time {
   margin-bottom: 10px;
 }
 
-.image-div {
+.latest-image-div {
   width: 100px;
   height: 75px;
   display: inline-block;
 }
 
-.text-div {
+.latest-text-div {
   display: inline-block;
   vertical-align: top;
 }
@@ -298,6 +299,8 @@ time {
   height: 75px;
   padding-right: 20px;
 }
+
+/* overlays for instagram feed */
 
 .feed .fa-heart {
   opacity: 0;
@@ -372,6 +375,11 @@ time {
   opacity: 0.4;
 }
 
+/* Instagram Feed  */
+
+.feed h2 {
+  font-family: 'Lato', sans-serif;
+}
 
 .feed a {
   width: 150px;

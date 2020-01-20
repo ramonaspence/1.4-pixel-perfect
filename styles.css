@@ -17,8 +17,7 @@ a {
 
 body {
   background-color: #F4F4F4;
-  font-family: 'Lato', sans-serif;
-  font-variant: small-caps;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -26,7 +25,8 @@ h2 {
 }
 
 hr {
-  color: #BDBDBD;
+color: #D7D7D7;
+
 }
 
 
@@ -43,22 +43,24 @@ hr {
   letter-spacing: .125rem;
   font-weight: lighter;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   background-color: #F8F8F8;
-  margin-bottom: 25px;
+  margin-bottom: 2.65rem;
   width: 100%;
-  height: 60px;
-  border-bottom: 1px solid #E7E7E7;
-  position: relative;
+  height: 6.2rem;
+  border-bottom: 1px solid #D7D7D7;
+  /* position: relative; */
 }
 
+.header-text {
+  width: 50%;
+  align-content: center;
+
+}
 .nav-links a {
   font-size: 1.7rem;
   color: #545454;
-  padding: 5px 5px;
-  position: relative;
-  left: 140px;
-  top: 19px;
+
 }
 
 .nav-icons a {
@@ -72,9 +74,9 @@ hr {
 .nav-icons {
   color: #BDBDBD;
   padding: 15px 15px;
-  position: relative;
-  left: 1040px;
-  bottom: 29px;
+  /* position: relative; */
+  /* left: 1040px; */
+  /* bottom: 29px; */
 }
 
 .nav-header i {
@@ -86,46 +88,53 @@ hr {
   display: inline-block;
   width: 75rem;
   margin-left: 15rem;
-  margin-top: 30px;
-  margin-right: 15px;
+  margin-top: 2.7rem;
+  /* margin-right: 15px; */
 }
 
 .article-preview {
   width: 100%;
   text-align: center;
   background-color: white;
+  padding-bottom: 1.3rem;
   margin-bottom: 5rem;
+
 }
 
 .article-preview img {
   width: 100%;
-  height: 475px;
-  margin-bottom: 40px;
+  height: 47.5rem;
+  margin-bottom: 4.3rem;
 }
 
 .preview-labels {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #DE5F42;
-  letter-spacing: 1.5px;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  /* letter-spacing: 1px; */
 }
 
 h1 {
-  margin: auto;
-  font-size: 3.6rem;
+
+  font-size: 2.4rem;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  margin-top: 1.2rem;
+  text-align: center;
+  /* letter-spacing: .1rem; */
+
 }
 
 .preview-descript {
   text-align: left;
-  padding: 10px 40px;
+  padding: 1rem 4rem;
   font-size: 1.5rem;
   line-height: 2.5rem;
-  font-variant: normal;
-  font-weight: lighter;
+  letter-spacing: .015  rem;
+  /* font-weight: lighter; */
+  font-family: 'Lato', sans-serif;
 }
 
 .article-preview button:hover {
@@ -134,12 +143,16 @@ h1 {
 }
 
 .continue-buttons {
+  margin: 1.3rem auto;
   color: #DE5F42;
   background-color: white;
   border: 1px solid #DE5F42;
-  padding: 10px 25px 10px 25px;
-  margin: 10px auto;
-  font-size: 1.75rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding: 1.1rem 1.7rem;
 }
 
 .preview-footers i:hover {
@@ -147,30 +160,62 @@ h1 {
 }
 
 .preview-footers {
-  padding: 35px;
-  position: relative;
+  padding: 1rem 4rem;
+  margin: 1.8rem 0;
+  color: #E9E9E9;
+  text-align: left;
+
+}
+
+.article-icons {
+  text-align: right;
+  display: inline-block;
+  width: 95%;
 }
 
 .preview-footers i {
   color: #BDBDBD;
-  margin: 10px 10px;
-  font-size: 1.6rem;
+  margin: .6rem .5rem;
+  font-size: 1.7rem;
+  display: inline-block;
   position: relative;
-  bottom: 35px;
-  left: 295px;
+  left: 4rem;
+
+
+
+
+}
+
+.preview-footers time {
+  font-family: 'Playfiar Display', sans-serif;
+  font-size: 1.3rem;
+  word-spacing: .05rem;
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: capitalize;
+  display: inline;
+  position: relative;
+  top: 2rem;
+
+
+
+
+
+
 }
 
 .sidebar {
   font-family: 'Lato', sans-serif;
   display: inline-block;
   width: 36rem;
-  margin-left: 15px;
+  margin-left: 2.7rem;
+  margin-top: 2.7rem;
   vertical-align: top;
 }
 
 .sidebar-items li {
   background-color: white;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .icon-container span:hover {
@@ -180,7 +225,7 @@ h1 {
 .bio-card {
   text-align: center;
   position: relative;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .bio-img {
@@ -205,7 +250,7 @@ h1 {
 
 .bio-text {
   /* font-family: 'Oswald', sans-serif; */
-  padding: 100px 35px;
+  /* padding: 100px 35px; */
   font-size: 3rem;
   line-height: 3rem;
   font-variant: normal;
@@ -223,9 +268,9 @@ h1 {
   padding: 5px 5px;
   margin-left: 6px;
   margin-right: 6px;
-  position: relative;
-  bottom: 83px;
-  right: 6px;
+  /* position: relative; */
+  /* bottom: 83px; */
+  /* right: 6px; */
   border: solid 1px #E2E2E2;
   border-radius: 50%;
 }
@@ -249,8 +294,8 @@ time {
   color: #A9A9A9;
   font-size: 1.6rem;
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
 }
 
 .popular-posts {
@@ -259,8 +304,8 @@ time {
 
 .popular-posts img {
   width: 300px;
-  height: 200px;
-  margin-top: 10px;
+  /* height: 200px; */
+  /* margin-top: 10px; */
 }
 
 .popular-posts hr {
@@ -296,7 +341,7 @@ time {
 
 .latest-posts img {
   width: 100px;
-  height: 75px;
+  /* height: 75px; */
   padding-right: 20px;
 }
 

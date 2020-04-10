@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-size: 62.5%;
+  
 }
 
 ul {
@@ -18,6 +19,7 @@ a {
 body {
   background-color: #F4F4F4;
   font-family: 'Oswald', sans-serif;
+  height: 100%;
 }
 
 h2 {
@@ -40,10 +42,11 @@ color: #D7D7D7;
 }
 
 .nav-header {
-  font-size: 1.7rem;
-  letter-spacing: .125rem;
-  font-weight: lighter;
-  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: .12rem;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-family: 'Lato';
   background-color: #F8F8F8;
   margin-bottom: 2.65rem;
   width: 100vw;
@@ -52,16 +55,23 @@ color: #D7D7D7;
   border-bottom: 1px solid #D7D7D7;
 
 
+
 }
 
 .header-text {
   width: 100%;
-  align-content: center;
-
+  padding: 0;
+  display: flex;
+  margin-top: -.8rem;
+  margin-left: -.25rem;
+  justify-content: space-between;
 }
+
+
 .nav-links a {
   font-size: 1.7rem;
   color: #545454;
+  padding-right: .2rem;
 
 
 }
@@ -69,17 +79,23 @@ color: #D7D7D7;
 .nav-icons a {
   color: #545454;
   padding: 5px 5px;
+}
 
-
-
+.nav-links {
+  width: 25%;
+  display: flex;
+  margin-left: -.5rem;
+  justify-content: space-around;
+  align-content: flex-start;
 }
 
 .nav-icons {
+  width: 9%;
   color: #BDBDBD;
-
-  padding: 15px 15px;
+  margin-right: -1rem;
   display: flex;
-  transform-origin: top left;
+  justify-content: space-between;
+
 
 
 
@@ -88,6 +104,7 @@ color: #D7D7D7;
 .nav-header i {
   font-size: 1.2rem;
   color: #BDBDBD;
+
 }
 
 .article-list {
@@ -309,8 +326,11 @@ time {
 }
 
 .popular-posts {
-  font-size: 1rem;
+  font-size: .7rem;
   padding: .5rem 3rem;
+  margin-bottom: 1.3rem;
+  padding-bottom: 2rem;
+
 }
 
 .pop-posts-title {
@@ -319,11 +339,18 @@ time {
   font-variant: small-caps;
 }
 
+.popular-posts time {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
 .popular-posts img {
   margin-top: .9rem;
   margin-bottom: .22rem;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: .25rem;
   width: 30rem;
   height: 20.15rem;
 
@@ -331,46 +358,73 @@ time {
 
 .popular-posts h3 {
   font-variant: small-caps;
-  font-size: 1.9rem;
-  letter-spacing: 0.105rem
+  font-size: 1.8rem;
+  letter-spacing: 0.105rem;
 }
 
 .popular-posts hr {
-  display: block;
+  color: #E2E2E2;
+  margin-bottom: .75rem;
+
 }
 
 .latest-posts {
-  margin-right: 35px;
-  padding-right: 35px;
-  padding: 20px 30px;
+  font-size: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: .15rem;
+  padding-bottom: 4rem;
+
+
+}
+
+.latest-posts-title {
+  margin: 1.5rem auto;
+  font-size: 2.92rem;
+  font-variant: small-caps;
+  align: center;
 }
 
 .latest-posts h3 {
-  margin-top: 0px;
+  font-variant: small-caps;
+  font-size: 1.8rem;
+  letter-spacing: 0.105rem;
+  margin-top: -.3rem;
 }
 
 .latest-posts hr {
   display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 80%;
+  color: #E2E2E2;
+}
+
+.latest-posts time {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .latest-image-div {
-  width: 100px;
-  height: 75px;
+  margin-left: 2.5rem;
   display: inline-block;
 }
 
 .latest-text-div {
   display: inline-block;
+  margin-left: 1.5rem;
   vertical-align: top;
 }
 
 .latest-posts img {
-  width: 100px;
-  /* height: 75px; */
-  padding-right: 20px;
+
+  width: 10rem;
+  height: 7.5rem;
+
 }
+
+
 
 /* overlays for instagram feed */
 
@@ -434,8 +488,8 @@ time {
 
 .img-links figure {
   background-color: rgb(220, 79, 55);
-  width: 150px;
-  height: 150px;
+  width: 14rem;
+  height: 15rem;
   margin-bottom: 10px;
   margin-right: 6px;
   margin-left: 2px;
@@ -449,8 +503,20 @@ time {
 
 /* Instagram Feed  */
 
+.feed {
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  padding-top: .5rem;
+}
+
 .feed h2 {
-  font-family: 'Lato', sans-serif;
+  font-size: 2.75rem;
+  font-variant: small-caps;
+  font-weight: bold;
+  /* margin-left: -1rem; */
+  align: center;
+
 }
 
 .feed a {
@@ -460,21 +526,19 @@ time {
 }
 
 .feed img {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  width: 14rem;
+  height: 15rem;
+
 }
 
-.feed {
-  padding-left: 25px;
-}
+
 
 
 
 .footer {
   width: 100%;
   font-size: 0px;
+  display: flex;
 
 }
 
